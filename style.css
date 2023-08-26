@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background */
+/* --------------------background */
+.container-fluid{
+    /* margin: 0%; */
+    background-image: url("img2.jpg");
+    background-size: cover;
+    /* margin-bottom: 0px; */
+    height:auto;
+/* max-height:200vh; */
+}
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+
+}
+/* header */
+/* -----------------------------header */
+.header {
+    background-image: linear-gradient(
+    to bottom,
+    rgb(253 250 219), rgba(0, 0, 255, 0.5) ),
+  ), url("catfront.png");
+    background-size: cover;
+@@ -42,13 +42,18 @@
+    color: #e4eff7;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #d0e5f5;
+}
+.main {
+    /* background-image: linear-gradient(#424242, #757575); */
+    background-color: #212121;
+
+
+}
+/* input section */
+
+/* --------------------------------input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #16a864;
+    color: #16a864;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #16a864;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* display */
+/* -------------------------------display */
+.display {
+    text-align: center;
+    color: #16a864;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
